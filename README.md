@@ -1,2 +1,0 @@
-# justitbootcamp
-justit bootcamp repository
