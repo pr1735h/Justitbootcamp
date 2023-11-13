@@ -74,3 +74,16 @@ body {
         font-size: larger;
         font-family: Georgia, 'Times New Roman', Times, serif;
         }
+
+.button1 {
+    background-color: black;
+    border-radius: 8px;
+    border-style: solid;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    }
+.button1:hover,
+.button1:focus {
+    background-color: chartreuse;
+}
