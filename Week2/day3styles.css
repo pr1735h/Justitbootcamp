@@ -31,4 +31,75 @@ body {
     clear: right;
        }
 
+.dinline {
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+    background-color: forestgreen;
+    border: 3px solid black;
+    margin: 5px 5px 5px 5px;
+}
 
+a {
+    color: black;
+    background-color: rgb(31, 252, 31);
+    font-size: large;
+    text-decoration: none;
+    border: 1px dotted gray;
+}
+
+a:visited {
+    color: black;
+    background-color: rgb(255, 0, 0);
+}
+a:hover {
+    color: black;
+    background-color: yellow;
+}
+a:active {
+    color: aliceblue;
+    background-color: blue;
+}
+
+.parent {
+    bottom: 10px;
+    left: 500px;
+}
+
+.child1, .child3 {
+    background-color: rgba(61, 166, 170, 0.466);
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.child2 {
+    position: absolute;
+    left: 10px;
+    background-color: rgba(128, 255, 0, 0.438);
+    padding: 10px;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(30, 255, 124, 0.452);
+    position: fixed;
+}
+
+.navbut {
+    padding: 15px;
+    margin: 5px;
+    border: 4px solid black;
+    background-color: rgb(84, 126, 11);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 40%;
+}
+.navbut:hover {
+    background-color: chartreuse;
+    color: black;
+}
