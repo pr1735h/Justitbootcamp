@@ -1,0 +1,58 @@
+body {
+    background-image: linear-gradient(to bottom right,rgba(0, 0, 255, 0.226), rgb(0, 0, 255,0.5),rgb(43, 255, 0) );
+  }
+
+@font-face {
+    font-family: 'Dancing';
+    src: url(/Fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf) format("truetype");
+            }
+
+h1    {
+        font-family: 'Dancing';
+        font-weight: bolder;
+        font-size: 50px;
+        color:darkblue;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(5, 252, 26);
+        text-decoration: underline #00008b 3px;
+        text-align: center;
+        letter-spacing: 5px;
+      }
+
+.div1 {
+        background-color:rgba(255, 255, 255, 0.397) ;
+        background-image: url('https://picsum.photos/id/237/536/354');
+        height: 354px;
+        width: 536px;
+}
+
+.pic1 { border-width: 3px;
+        border-color: black;
+        border-style: solid;
+        border-radius: 65% 35%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+
+
+
+
+
+.box {border: 5px solid black;
+        border-radius: 10px;        
+        background-image: url('balloons.jpg');
+        background-repeat: no-repeat;
+        background-repeat: repeat-x;
+        padding: 10px 30px 30px 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    h2 {
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(5, 252, 26);
+        background-color: rgba(212, 202, 202, 0.356);
+    }
