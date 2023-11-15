@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient(to bottom right,rgba(11, 105, 50, 0.562), rgba(0, 255, 85, 0.61),rgb(27, 114, 10) );
+     }
+
+
+
+.boxl {
+    width: 160px;
+    height: 150px;
+    background-color: forestgreen;
+    border: 3px solid black;
+    text-align: center;
+    float: left;
+    margin: 0 5px;
+    }
+
+.boxr {
+    width: 160px;
+    height: 150px;
+    background-color: forestgreen;
+    border: 3px solid black;
+    text-align: center;
+    float: right;
+    margin: 0 5px;
+    }
+.plearl {
+    clear: left;
+       }
+
+.plearr {
+    clear: right;
+       }
+
+
