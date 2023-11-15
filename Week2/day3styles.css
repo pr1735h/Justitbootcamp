@@ -84,7 +84,7 @@ a:active {
 .navbar {
     width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 5px;
     background-color: rgba(30, 255, 124, 0.452);
     position: fixed;
 }
@@ -102,4 +102,5 @@ a:active {
 .navbut:hover {
     background-color: chartreuse;
     color: black;
+    color: blueviolet;
 }
