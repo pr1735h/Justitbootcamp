@@ -1,0 +1,118 @@
+body    {
+    background: linear-gradient(to right, #003366, #3399ff);
+ }
+h1      {
+    font-family: 'Dancing';
+    font-weight: bolder;
+    font-size: 50px;
+    color:darkblue;
+    text-shadow: 1px 1px 3px rgb(250, 250, 250), 0 0 25px blue, 0 0 15px rgb(227, 252, 5);
+    text-decoration: underline #00008b 3px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 2px rgb(3, 3, 3), 0 0 20px rgb(7, 7, 148), 0 0 10px rgb(5, 252, 26);
+    background-color: rgba(212, 202, 202, 0.356);
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline white 3px;
+}
+
+.d1 {
+    height: 50vh;
+    width: 99vw;
+    background-color: #00008b7c;
+}
+
+.p1 {
+    height: 3em;
+    width: 80em;
+    background-color: aliceblue;
+}
+.p2 {
+    height: 2rem;
+    width: 70rem;
+    background-color: blueviolet;
+}
+.p3 {
+    height: 20px;
+    width: 400px;
+    background-color: chartreuse;
+}
+.p4 {
+    height: 5%;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.p5 {
+    height: 10vh ;
+    width: 70vw;
+    background-color: darkkhaki;
+}
+
+.gridcon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: rgba(33, 149, 243, 0.637);
+    padding: 10px;
+}
+
+.gridcon> div {
+    background-color: rgba(18, 190, 110, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.header {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 6;
+  }
+.menu {
+    grid-row: 2 / span 5;
+    grid-column: 1 / span 1;
+}
+.content1 {
+    grid-row: 2 / span 4;
+    grid-column: 2 / span 5;
+}
+.content2 {
+    grid-row: 6 / span 1;
+    grid-column: 2 / span 5;
+}
+.footer {
+    grid-row: 7 / span 1;
+    grid-column: 1 / span 6;
+}
+
+.form1 {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    background-color: rgba(10, 156, 156, 0.438);
+    border: 5px solid white;
+
+}
+.form1label {
+    background-color: rgb(7, 129, 17);
+    color: beige;
+    text-shadow: 4px 4px 5px red;
+}
+.form1but{
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    font-size: medium;
+    font-weight: bold;
+    background-color:  rgb(7, 129, 17);
+    color: beige;
+    text-shadow: 4px 4px 5px red;
+}
+.form1but:hover {
+    background-color: gold;
+    color: black;
+}

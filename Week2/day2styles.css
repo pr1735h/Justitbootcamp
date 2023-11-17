@@ -55,4 +55,5 @@ h1    {
         color: white;
         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(5, 252, 26);
         background-color: rgba(212, 202, 202, 0.356);
+        text-align: center;
     }
