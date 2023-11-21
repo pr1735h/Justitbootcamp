@@ -59,3 +59,40 @@ article::after{
     text-shadow: var(--glowshadow) var(--grellow), var(--rglowshadow) black;
     text-decoration: var(--bunderline);
 }
+
+/* Animations and Keyframes: */
+
+@keyframes simple {
+            from {
+                background-color: var(--blue);
+                color: aliceblue;
+                text-shadow: var(--glowshadow) var(--grellow), var(--rglowshadow) black;
+                text-decoration: var(--bunderline);
+
+            }
+            to{
+                background-color: var(--teal);
+                color: var(--purpink);
+                text-shadow: var(--glowshadow) var(--grellow), var(--rglowshadow) black;
+                text-decoration: var(--wunderline);
+            }
+
+}
+
+.anbutt{
+    height: 40px;
+    background-color: var(--white);
+    color: var(--black);
+    text-decoration: var(--bunderline);
+    font-weight: bold;
+}
+
+.anbutt:hover{
+    background-color: var(--fred);
+    text-decoration: var(--wunderline);
+
+    animation-name: simple;
+    animation-duration: 2s;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+}
