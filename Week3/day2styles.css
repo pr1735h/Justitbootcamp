@@ -21,6 +21,40 @@ body{
 background: linear-gradient(90deg, var(--teal) 10%, rgba(42,229,104,0.8687850140056023) 25%, rgba(136,222,140,0.927608543417367) 50%, rgba(103,210,229,0.9304096638655462) 100%);
 }
 
+@keyframes timple1 {
+    0% {
+        text-shadow: var(--glowshadow) black;
+    }
+    50% {
+        box-shadow: inset var(--glowshadow) white;
+    }
+    100% {
+        text-shadow: var(--glowshadow) black;
+    }
+}
+
+@keyframes timple2 {
+    0% {
+        text-shadow: var(--glowshadow) white;
+    }
+    50% {
+        box-shadow: inset var(--glowshadow) black;
+    }
+    100% {
+        text-shadow: var(--glowshadow) white;
+    }
+}
+
+h1      {
+    font-family: 'Dancing';
+    font-weight: bolder;
+    font-size: 50px;
+    color:darkblue;
+    text-shadow: 1px 1px 3px rgb(250, 250, 250), 0 0 25px blue, 0 0 15px rgb(227, 252, 5);
+    text-decoration: underline #00008b 3px;
+    text-align: center;
+}
+
 #join>:nth-child(2n){
     color: crimson;
     background: rgb(0,212,255);
@@ -29,6 +63,10 @@ background: linear-gradient(90deg, var(--teal) 10%, rgba(42,229,104,0.8687850140
     font-weight: bold;
     text-shadow: var(--glowshadow) black;
     border: var(--wbord);
+    animation-name: timple1;
+    animation-duration: 2s;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
 }
 
 #join>:nth-child(2n-1){
@@ -39,6 +77,10 @@ background: linear-gradient(90deg, var(--teal) 10%, rgba(42,229,104,0.8687850140
     font-weight: bold;
     box-shadow: inset var(--glowshadow) white;
     border: var(--bbord);
+    animation-name: timple2;
+    animation-duration: 2s;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
 }
 
 .particle{
@@ -63,18 +105,47 @@ article::after{
 /* Animations and Keyframes: */
 
 @keyframes simple {
-            from {
+            0% {
                 background-color: var(--blue);
                 color: aliceblue;
                 text-shadow: var(--glowshadow) var(--grellow), var(--rglowshadow) black;
                 text-decoration: var(--bunderline);
-
+                font-size: 10px;
             }
-            to{
+            20% {
+                background-color: blue;
+                color: rgb(100, 173, 236);
+                text-shadow: var(--glowshadow) var(--grellow), var(--rglowshadow) rgb(88, 79, 79);
+                text-decoration: var(--bunderline);
+                font-size: 15px;
+            }
+            40% {
+                background-color: wheat;
+                color: rgb(8, 78, 139);
+                text-shadow: var(--glowshadow) var(--grellow), var(--rglowshadow) black;
+                text-decoration: var(--bunderline);
+                font-size: 20px;
+            }
+            60% {
+                background-color: green;
+                color: rgb(73, 40, 163);
+                text-shadow: var(--glowshadow) var(--grellow), var(--rglowshadow) black;
+                text-decoration: var(--bunderline);
+                font-size: 25px;
+            }
+            80% {
+                background-color: yellow;
+                color: purple;
+                text-shadow: var(--glowshadow) var(--grellow), var(--rglowshadow) black;
+                text-decoration: var(--bunderline);
+                font-size: 30px;
+            }
+            100%{
                 background-color: var(--teal);
                 color: var(--purpink);
                 text-shadow: var(--glowshadow) var(--grellow), var(--rglowshadow) black;
                 text-decoration: var(--wunderline);
+                font-size: 35px;
             }
 
 }
@@ -92,7 +163,29 @@ article::after{
     text-decoration: var(--wunderline);
 
     animation-name: simple;
+    animation-duration: 4s;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imple {
+    from {
+        background-image: url(https://picsum.photos/300);
+    }
+    to {
+        background-image: url(https://picsum.photos/200/300);
+    }
+}
+
+.animage{
+    background-image: url(https://picsum.photos/id/237/200/300);
+    height: 400px;
+    width: 600px;
+    background-repeat: no-repeat;
+
+    animation-name: imple;
     animation-duration: 2s;
     animation-delay: 1ms;
     animation-iteration-count: infinite;
 }
+
