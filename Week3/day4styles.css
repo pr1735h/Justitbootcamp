@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+/* 
+:root{
+    
+     --white: rgba(255, 255, 255, 0.747);
+     --black: rgba(0, 0, 0, 0.603);
+     --blue: rgb(5, 67, 182);
+     --teal: rgba(8,134,175,0.5046393557422969);
+     --purpink: rgba(202,5,111,0.7987570028011204);
+     --fred: rgba(243,22,22,1);
+     --grellow: rgb(125, 255, 3);
+     --glowshadow: 2px 2px 10px white;
+     --rglowshadow: -2px -2px 10px black;
+     --bbord: 3px solid black;
+     --wbord: 3px solid var(--white);
+     --wunderline: underline solid white 5px;
+     --bunderline: underline solid black 5px;
+ }
+ 
+body{
+     background: rgb(8,134,175);
+ background: linear-gradient(90deg, var(--teal) 10%, rgba(42,229,104,0.8687850140056023) 25%, rgba(136,222,140,0.927608543417367) 50%, rgba(103,210,229,0.9304096638655462) 100%);
+ }
+
+h1      {
+    font-family: 'Dancing';
+    font-weight: bolder;
+    font-size: 50px;
+    color:darkblue;
+    text-shadow: 1px 1px 3px rgb(250, 250, 250), 0 0 25px blue, 0 0 15px rgb(227, 252, 5);
+    text-decoration: underline #00008b 3px;
+    text-align: center;
+}
+*/
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.prp {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.h31 {
+    font-size: 35px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #5c539d;
+}
+
+.container h2{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.price-row1 {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+
+.price-col1{
+    background-color: rgb(36, 40, 63);
+    padding: 10% 10%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.list1{
+    margin-left: 10px;
+}
+
+.list1 li{
+    padding: 7px;
+}
+
+.price-col1 ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "• ";
+    color: rgb(255, 0, 0);
+    padding: 5px;
+}
+
+/* .price-col1 ul{
+list-style-position: inside;
+} This is a simple way to get bullet points to line up with text inside an element */
+
+.pbut{
+    height: 40px;
+    width: 80%;
+    position: relative;
+    left: 25px;
+    background-color: rgb(36, 40, 63);
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 2s;
+}
+
+.pbut:hover{
+    background-color: blueviolet;
+}
