@@ -61,3 +61,4 @@ console.log(true + true + 20); //The value of true is 1 so the operation here is
 console.log(10 + 1 + "11" + 1 + 10); //The first 2 values are added together but then a string interupts so the rest of the operation is printed as a string.
 console.log(true + 10 + 10 + 10 + "22");
 
+console.log(3+4+true+'2'+10+true+11+'2'+1);
