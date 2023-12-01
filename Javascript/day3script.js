@@ -80,3 +80,89 @@ console.log("Not Even"); //The value does not divide by 2 so it prints as 'Not E
 else(console.log("Not Odd"))
 
 //
+let userName = "Pritesh";
+let passWord = "passwrd";
+if(userName == "Pritesh" && passWord == "password")
+{console.log("Logged in succesfully");}
+else{
+    console.log("Username or Password is incorrect!");
+}
+
+//
+let num1 = 10;
+let num2 = 20;
+let num3 = 10;
+if(num1 > num2)
+{console.log(num1);}
+else
+{console.log(num2);}
+
+if(num1 == num3)
+{console.log(String(num1) + " " + String(num3));}
+
+//
+console.clear();
+
+//Switch Statements:
+//Usefull when you have one condition being checked against multiple classes.
+let day = "Moday";
+switch(day)
+{   
+    case "Monday":
+        console.log("Today is Monday");
+        break; //Used to stop the execution if the condition is met. Without it the rest of the conditions will be checked and potentially executed.
+    case "Tuesday":
+        console.log("Today is Tuesday");
+        break;
+    case "Wednesday":
+        console.log("Today is Wednesday");
+        break;
+    case "Thursday":
+        console.log("Today is Thursday");
+        break;
+    case "Friday":
+        console.log("Today is Friday");
+        break;
+    case "Saturday" , "Sunday":
+        console.log("It is the Weekend");
+        break;
+    default: //Set the condition that is executed if none of the pervious conditions were met. If this happens without a default the whole switch won't be executed.
+        console.log("That is not a day")
+}
+
+//
+let score = 42;
+switch(true)
+{
+    case score >=100:
+        console.log("Perfect");
+    break;
+    case score >=80:
+        console.log("Excellent");
+    break;
+    case score >=60:
+        console.log("Good");
+    break;
+    case score >=40:
+        console.log("Ok");
+    break;
+    case score >=20:
+        console.log("Bad");
+    break;
+    default:
+        console.log("Fail");
+}
+
+let pWord = "Password123123";
+let len = pWord.length;
+switch(true)
+{
+    case pWord.length >= 8:
+        console.log("The password is " + len + " characters long");
+    break;
+    case pWord.length >= 1:
+        console.log("The password is too short");
+    break;
+    default:
+        console.log("Please enter a password!");
+}
