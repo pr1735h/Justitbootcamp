@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form {
+    border: 2px solid black;
+    margin: 0px 75px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
