@@ -1,0 +1,14 @@
+#title{
+    text-align: center;
+    text-decoration: underline solid 3px black;
+    color: green;    
+}
+
+#itemFive {
+    background-color: crimson;
+}
+
+.newListItems {
+    color: rgb(59, 223, 59);
+    text-decoration: underline 3px;
+}
