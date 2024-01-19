@@ -1,0 +1,53 @@
+:root {
+    --tShadow1: 0px 0px 15px rgb(153, 0, 255), 1px 1px 10px rgb(89, 21, 179);
+    --tShadow2: 0px 0px 15px rgb(21, 179, 100), 1px 1px 10px rgb(0, 60, 255);
+    --tShadow3: 0px 0px 5px lightblue, 1px 1px 10px lightgreen;
+    --textColor1: rgba(11, 235, 41, 0.89);
+    --titleUnder1: underline solid var(--textColor1) 4px;
+    --bGroundCol1: rgba(82, 8, 124, 0.774);
+}
+
+body {
+    background-image: url(/Project1/images/forest.jpg);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: var(--textColor1);
+    text-shadow: var(--tShadow1);
+    text-decoration: var(--titleUnder1);
+    text-align: center;
+}
+
+.bigFoot1 {
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.bigFoot2 {
+    box-shadow: 0px 0px 5px white;
+}
+
+.hint {
+    background-color: var(--bGroundCol1);
+    font-weight: 900;
+}
+
+#p1 {
+    display: inline;
+}
+
+.tColor {
+    color: var(--textColor1);
+    background-color: var(--bGroundCol1);
+    text-shadow: var(--tShadow2);
+    text-decoration: var(--titleUnder1);
+}
+
+#hint {
+    height: 40px;
+    width: 60px;
+}

@@ -24,17 +24,23 @@
 
         <!-- Submit button that will be used to call our Save to LS functionality -->
         <input type="submit" id="saveBtn" value="Save">
+        <!-- Button that will be used to clear LS -->
+        <button id="deleteBtn">Clear &#128465;</button>
     </form>
-    <br>
-    <button id="clear">Clear</button>
-    <br>
-    <form id="searchForm">
-        <label for="searchBar">Search Local Storage:</label>
-        <input type="text" id="searchBar">
-        <input type="submit" id="searchButt" value="Search">
+
+    <!-- Form Element - To contain search input and search button -->
+    <form id="searchForm" class="form">
+        <!-- Wrapper div for styping purposes -->
+        <div id="wrapper">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <input type="submit" id="searchBtn" value="Search">
+        </div>
+        <!-- Empty container div to store the search result -->
+        <div class="container" id="searchOutput"></div>
     </form>
-    <section id="storageOutput"></section>
-    <section id="searchOutput"></section>
+    <h2>Stored Data:</h2>
+    <!-- Empty container div to output items from LS -->
+    <div class="container" id="storageOutput"></div>
 </body>
 
 </html>

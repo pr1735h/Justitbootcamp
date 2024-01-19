@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(65deg, green 0%, lightgreen 30%, white 50%, lightgreen 60%, green 100%);
+}
+
+#box {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    width: 100vh;
+    height: 1vh;
+}
+
+#password {
+    margin: 1vh;
+    width: 100%;
+    text-align: center;
+}
+
+fieldset {
+    border: 7px solid navy;
+    border-radius: 20px;
+}
+
+.titles {
+    font-size: larger;
+    font-weight: 800;
+    text-decoration: underline solid navy 5px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    font-size: 2vh;
+    font-weight: 800;
+    color: navy;
+    background-color: cornflowerblue;
+    border: 5px solid navy;
+    border-radius: 20px;
+    margin: 5px;
+}
