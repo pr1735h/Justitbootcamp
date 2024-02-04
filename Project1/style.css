@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(Project1/images/forest.jpg);
+    background-image: url("Project1/images/forest.jpg");
 }
 
 h1 {
