@@ -8,6 +8,7 @@
     --underLine: underline solid 3px var(--textCol1);
     --border: solid 4px black;
     --shadow1: 0px 0px 5px gray, 0px 0px 10px navy;
+    --col3: rgb(131, 225, 208);
 }
 
 html {

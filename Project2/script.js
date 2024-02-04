@@ -14,13 +14,13 @@ function updateRange() {
     rangeOutput.classList.add("flash");
     const lowValue = document.getElementById("low");
     lowValue.style.flex = low + "%";
-    lowValue.style.background = "#ef7b54";
+    lowValue.style.background = "rgb(239, 123, 84)";
     const space = document.getElementById("space");
     space.style.flex = high - low + "%";
-    space.style.background = "#83e1d0";
+    space.style.background = "rgb(131, 225, 208)";
     const highValue = document.getElementById("high");
     highValue.style.flex = 100 - high + "%";
-    highValue.style.background = "#ef7b54";
+    highValue.style.background = "rgb(239, 123, 84)";
 }
 
 function gameEnded() {
