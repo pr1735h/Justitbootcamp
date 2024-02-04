@@ -4,7 +4,7 @@ const forest = document.getElementById("forest");
 function loadBigFoot() {
     //Creating the image and decalring it is as a let variable so it's attributes can be changed:
     let bigFoot = document.createElement("img");
-    bigFoot.setAttribute("src", "Project1/images/bigfoot.png");
+    bigFoot.setAttribute("src", "https://raw.githubusercontent.com/pr1735h/Justitbootcamp/main/Project1/images/bigfoot.png");
     bigFoot.setAttribute("width", "44");
     bigFoot.setAttribute("height", "50");
     bigFoot.setAttribute("alt", "Big Foot");
