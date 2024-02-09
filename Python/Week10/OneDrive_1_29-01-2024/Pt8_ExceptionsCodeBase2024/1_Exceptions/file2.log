@@ -1,0 +1,7 @@
+INFO:root:Divided 1000 / 2 = 500.0
+WARNING:root:User attempted to divide by zero
+WARNING:root:User attempted to divide by zero
+INFO:root:Divided 10 / 10 = 1.0
+ERROR:root:User attempted to divide by zero
+WARNING:root:User attempted to divide by zero
+ERROR:root:User attempted to divide by zero

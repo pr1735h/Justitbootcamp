@@ -1,0 +1,57 @@
+Course (courseID, Level, Sessions, Instructor, startDate, LessonTime)
+Lessons (LessonID, CourseID, MemberID)
+Members (MemberID, Firstname, Surname, DOB, Address, City)
+10:00, 10:30, 11:00, 11:30, 13:00, 13:30, 14:00, 14:30, 15:00, 15:30, 16:00, 16:30, 17:00
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MongoDB CLI
+CRUD: Create Read Update Delete
+ 
+show dbs 
+show databases
+ 
+- Create
+ 
+-- Database
+use c9v2
+ 
+--- Collections
+db.createCollection("users")
+db.createCollection("testCollection")
+
+-----Documents
+-----insertone:
+db.users.insertOne({"userID":1, "name":"Jane Roberts", "age":23, "gender":"F"})
+db.users.insertOne({"name":"Carl Johnson"})
+db.users.insertOne({"_id":10,"name":"Abdul Malik Jay", "interests":"Football"})
+
+------inserMany
+db.users.insertMany([{"userID":2, "name":"James Bond", "age":30},{"name":"Pauline Jones", "City":"Birmingham"},{"name":"Anna Davies"}])
+db.users.insertMany([{"_id":11, "name":"Lucy Liu", "age":40, "profession":"Actress"},{"_id":12 ,"name":"Indiana Jones", "City":"New York"}
+,{"_id":13, "name":"Ginna Davis"}, {"name":"Keanu Reeves", "movie": "The Matrix"}])
+
+------updateOne:
+db.users.updateOne({"_id":ObjectId('65aa3e8103a9084d8caaddff')},{$set:{"age":31}})
+
+------updateMany:
+db.users.updateMany({"userID":1},{$set:{"gender":"Female"}})
+
+------deleteOne
+db.users.deleteOne({"_id":13})
+------deleteMany
+
+------Delete Collection:
+db.testCollection.drop()
+
+------Delete a database:
+use test
+db.testCollection.drop()
+
+
+
+
+
+
+
+

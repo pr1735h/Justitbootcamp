@@ -1,0 +1,5 @@
+-- relational Database with two tables 
+-- Create two tables called customer and order
+-- Ensure the customer primary key is reference as foreign key in the order table
+-- A minimum of 3 columns/fields for each table with 5 for records each 
+-- Show evidence of update, delete and constraint(s) you have covered before

@@ -1,0 +1,8 @@
+The members Menu options.
+Enter:
+1. Print all members.
+2. Add a member.
+3. Update a member.
+4. Delete a member.
+5. Report.
+6. Exit the members App.
