@@ -4,7 +4,7 @@ from bson.objectid import ObjectId
 from statistics import mean
 
 def main():
-    client = MongoClient("mongodb+srv://pr1735h:vPvcoOjrKHF6r7Em@cluster0.zu2wfsw.mongodb.net/")
+    client = MongoClient("mongodb+srv://pr1735h:<password>@cluster0.zu2wfsw.mongodb.net/")
     db_name = "c9w4"
     mongo_db = client[db_name]
     course = "course"
